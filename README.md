@@ -3,7 +3,7 @@
 A prototype that renders to multiple views.
 
 You can [modify the Flutter engine](https://github.com/flutter/flutter/wiki/Compiling-the-engine)
-to create multiple views back by the same surface:
+to create multiple views backed by the same surface:
 
 ```diff
 diff --git a/lib/ui/window/platform_configuration.cc b/lib/ui/window/platform_configuration.cc
